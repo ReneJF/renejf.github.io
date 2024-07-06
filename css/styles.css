@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    font-size: medium;
+}
+
+#map {
+    width: 70%;
+    height: 100vh;
+    float: left;
+}
+
+#error-message {
+    display: none;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
+
+#messages {
+    width: 30%;
+    height: 100vh;
+    float: right;
+    overflow-y: auto;
+}
+
+#messages h2 {
+    padding: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#event-messages li {
+    margin-bottom: 10px;
+}
+
+.blue-pulse-icon {
+    background: transparent; /* Oculta el fondo */
+    border: 0; /* Oculta el borde */
+    box-shadow: rgb(0, 51, 128) 0px 3px 5px; 
+    width: 5mm;
+    height: 5mm;
+    border-radius: 50%; /* Para hacer que el icono sea un círculo */
+    background-color: rgb(32, 126, 214); /* Color del punto central (rojo) */
+}
+
+.custom-marker img {
+    display: block;
+    transform-origin: center;
+}
