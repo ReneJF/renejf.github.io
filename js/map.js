@@ -2,7 +2,7 @@ let map;
 var markers = [];
 var polylines = [];
 
-function initMap() {
+async function initMap() {
     const position = [3.435611, -76.519670];
     map = L.map('map').setView(position, 13);
 
